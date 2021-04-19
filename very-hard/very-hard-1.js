@@ -15,5 +15,4 @@ function trackRobot(...steps) {
 	return steps.reduce((a, c, i) => {a[(i+1) % 2] += (i % 4 > 1 ? -c : c); return a;}, [0, 0])
 }
 
-
 console.log(trackRobot(20, 30, 10, 40));
