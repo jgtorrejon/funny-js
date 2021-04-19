@@ -1,5 +1,5 @@
 // Challenge link: https://edabit.com/challenge/3ZtykTsx3GSoPHyBb
 
-const towerHanoi = (n) => { return 0; }
+const towerHanoi = (discs) => Math.pow(2, discs) - 1;
 
-console.log(towerHanoi(0));
+console.log(towerHanoi(3));
